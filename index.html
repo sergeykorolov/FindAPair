@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find a pair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Блок с игровым полем-->
+    <div class="gameWindow">
+        <div class="playField">
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+            <div class="cell hide" onclick="clickOnCell(event)"></div>
+        </div>
+
+        <button class="start">Start</button>
+        <div id="timer">00:00.000</div>
+
+    </div>
+
+    <!--Всплывающее окно в завершении игры-->
+    <div class="popup">
+        <p class="message">Вы выиграли!</p>
+        <p class="labelForTime">Затраченное время: <span class="resultTime"></span></p>
+        <button class="ok" onclick="buttonOk()">OK</button>
+    </div>
+
+    <script src="js/stopwatch.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

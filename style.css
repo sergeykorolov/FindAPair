@@ -1,0 +1,124 @@
+.gameWindow{
+    border: solid 1px gray;
+    width: 306px;
+}
+
+.playField{
+    width: 284px;
+    margin: 10px 10px 10px 10px;
+}
+
+.cursorDefault .cell:hover{
+    cursor: default;
+}
+
+.cursorPointer .cell:hover{
+    cursor: pointer;
+}
+
+.cell{
+    display: inline-block;
+    border: solid 1px gainsboro;
+    width: 70px;
+    height: 70px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    background: white;
+}
+
+.cell:hover{
+    cursor: pointer;
+}
+
+.start{
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.start:hover{
+    cursor: pointer;
+}
+
+#timer{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.black{
+    background-color: black;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.hide{
+    background-color: white;
+}
+
+.popup {
+    display: none;
+    border: solid 1px gray;
+    width: 400px;
+    height: 140px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    opacity: 0.8;
+    background-color: white;
+}
+
+.message{
+    padding-top: 15px;
+    padding-left: 15px;
+    opacity: 0.8;
+}
+
+.labelForTime{
+    padding-left: 15px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.ok{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: dodgerblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.ok:hover{
+    cursor: pointer;
+}
