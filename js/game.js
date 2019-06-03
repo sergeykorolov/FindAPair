@@ -1,11 +1,11 @@
-var colors = ["red", "green", "yellow", "blue", "gray", "brown", "black", "pink"];
+var colors = ["red", "green", "yellow", "blue", "gray", "brown", "black", "pink"]; // массив из которого генерируются цвета клеток
 
-var firstCell;
-var secondCell;
-var firstColor = "";
-var secondColor = "";
-var pairCounter = 0;
-var foundedPairs = 0;
+var firstCell;          // первая выбранная клетка
+var secondCell;         // вторая выбранная клетка
+var firstColor = "";    // цвет первой выбранной клетки
+var secondColor = "";   // цвет второй выбранной клетки
+var pairCounter = 0;    // счетчик открываемых для сравнения клеток
+var foundedPairs = 0;   // счетчик наденных пар
 
 var cellArray = document.getElementsByClassName("cell"); // получаем массив с клетками игрового поля
 

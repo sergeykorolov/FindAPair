@@ -4,7 +4,6 @@ function Stopwatch(opts) {
     var time = 0;
     var interval;
     var offset;
-
     var elem = opts.elem;
     var delay = opts.delay;
 
@@ -37,7 +36,6 @@ function Stopwatch(opts) {
         if(minutes.length < 2){
             minutes = "0" + minutes;
         }
-
         if(seconds.length < 2){
             seconds = "0" + seconds;
         }
